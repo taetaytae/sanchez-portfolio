@@ -4,3 +4,14 @@
 
   grid-template-columns: repeat(3, 1fr);
 }
+
+
+
+@media screen and (max-width:1300px){
+
+.mediaContainer{
+  grid-template-columns: 1fr;
+}
+
+    
+}
