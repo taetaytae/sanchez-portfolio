@@ -1,50 +1,64 @@
 .cardContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   width: 100%;
   height: 100%;
   min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.cardContainer:hover .description {
-  display: block;
-}
-
-.soundcloud {
-  width: 70%;
-  height: 60%;
-
- 
-}
-
-.soundcloud iframe{
-    display: flex;
-    border-radius: 10px;
-}
-
-.description {
-  animation: open 0.5s;
-  border-radius: 10px;
-  display: none;
-  padding: 10px;
-  background-color: #19323c;
-  color: #f3f7f0;
+.flip-card {
+  background-color: transparent;
   width: 80%;
-  margin-top: 10px;
+  height: 70%;
+  
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
-.description p {
-  margin: 0;
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.486);
 }
 
-@keyframes open {
-  from {
-    opacity: 0;
-  }
+/* Do a horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
 
-  to {
-    opacity: 1;
-  }
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if iframe is missing) */
+.flip-card-front {
+  background-color: #F3F7F0;
+  border-radius: 10px;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #19323C;
+  color: #F3F7F0;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+}
+
+.flip-card-back p {
+  margin: 10px;
+}
+
+iframe{
+  border-radius: 10px;
 }
