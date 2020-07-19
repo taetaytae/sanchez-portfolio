@@ -11,7 +11,6 @@
   background-color: transparent;
   width: 80%;
   height: 70%;
-  
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -27,13 +26,9 @@
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.486);
 }
 
-/* Do a horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
 /* Position the front and back side */
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -43,14 +38,14 @@
 
 /* Style the front side (fallback if iframe is missing) */
 .flip-card-front {
-  background-color: #F3F7F0;
+  background-color: #f3f7f0;
   border-radius: 10px;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: #19323C;
-  color: #F3F7F0;
+  background-color: #19323c;
+  color: #f3f7f0;
   transform: rotateY(180deg);
   border-radius: 10px;
 }
@@ -59,6 +54,32 @@
   margin: 10px;
 }
 
-iframe{
+iframe {
   border-radius: 10px;
+}
+
+.flip-icon {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+}
+
+.flip-icon img {
+  pointer-events: all;
+  cursor: pointer;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}
+
+.flip-icon img:hover{
+  cursor: pointer;
+}
+
+.flip-card:hover .flip-icon img{
+  opacity: 1;
 }
