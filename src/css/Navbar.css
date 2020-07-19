@@ -1,0 +1,50 @@
+nav{
+
+    display: grid;
+    grid-template-columns: 1fr 3fr repeat(7, 1fr);
+    place-items: center;
+
+}
+
+.logo {
+    font-family: Quacker;
+    font-size: 3rem;
+    grid-column: 2;
+    color: #A93F55;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.links {
+
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: #19323C underline;
+    color: #19323C;
+    cursor: pointer;
+
+}
+
+.links:nth-child(2) {
+    grid-column: 5;
+}
+
+.links:nth-child(3) {
+    grid-column: 7;
+}
+
+@media screen and (max-width:1300px){
+
+    .logo {
+        font-size: 5vh;
+    }
+
+    .links {
+        font-size: 3vh;
+    }
+}

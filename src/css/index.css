@@ -1,10 +1,25 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Giveny;
+  height: 100vh;
+  background: #F3F7F0;
+  color: #19323C;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: Giveny;
+  src: url('../fonts/giveny/Giveny.otf');
+}
 
+@font-face {
+  font-family: Deliverance;
+  src: url('../fonts/deliverance/deliverance.otf');
+}
+
+@font-face {
+  font-family: Quacker;
+  src: url('../fonts/quacker/Quacker_Demo.ttf');
+}
