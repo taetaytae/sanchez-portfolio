@@ -39,7 +39,7 @@ export function Card2Iframe() {
       width="100%"
       height="100%"
       scrolling="no"
-      frameborder="no"
+      frameBorder="no"
       allow="autoplay"
       src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/606488154&color=%23f2545b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true%22%3E"
       title="v"
@@ -66,7 +66,7 @@ export function Card3Iframe() {
       width="100%"
       height="100%"
       scrolling="no"
-      frameborder="no"
+      frameBorder="no"
       allow="autoplay"
       src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/643328007&color=%23f2545b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true%22%3E"
       title="b"
@@ -94,7 +94,7 @@ export function Card4Iframe() {
       width="100%"
       height="100%"
       scrolling="no"
-      frameborder="no"
+      frameBorder="no"
       allow="autoplay"
       src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/663510557&color=%23f2545b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true%22%3E"
       title="n"
@@ -118,7 +118,7 @@ export function Card5Iframe() {
       width="100%"
       height="100%"
       scrolling="no"
-      frameborder="no"
+      frameBorder="no"
       allow="autoplay"
       src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/443298468&color=%23f2545b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true%22%3E"
       title="m"
@@ -145,9 +145,9 @@ export function Card6Iframe() {
       src="https://player.vimeo.com/video/438253135"
       width="100%"
       height="100%"
-      frameborder="0"
+      frameBorder="0"
       allow="autoplay; fullscreen"
-      allowfullscreen
+      allowFullScreen
       title='vimeo'
     ></iframe>
   );
