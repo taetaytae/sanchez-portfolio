@@ -11,6 +11,8 @@
   background-color: transparent;
   width: 80%;
   height: 70%;
+  animation: hoverEffect 4s infinite ease-in-out;
+  
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -54,6 +56,14 @@
   margin: 10px;
 }
 
+.flip-card-back h2 {
+  font-family: Quacker;
+  font-size: 3rem;
+  margin: 0px;
+  letter-spacing: 3px;
+  color: #f2545b;
+}
+
 iframe {
   border-radius: 10px;
 }
@@ -76,10 +86,23 @@ iframe {
   transition: 0.4s ease-in-out;
 }
 
-.flip-icon img:hover{
+.flip-icon img:hover {
   cursor: pointer;
 }
 
-.flip-card:hover .flip-icon img{
+.flip-card:hover .flip-icon img {
   opacity: 1;
+}
+
+@keyframes hoverEffect {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(7px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
 }
