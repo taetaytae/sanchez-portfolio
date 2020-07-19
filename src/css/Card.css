@@ -1,0 +1,36 @@
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cardContainer:hover .description{
+
+    display: block;
+
+}
+
+.soundcloud{
+
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+
+}
+
+.description{
+
+    margin-left: 10px;
+    border-radius:10px;
+    display: none;
+    max-width: 300px;
+    padding: 10px;
+    background-color: #19323C;
+    color: #F3F7F0;
+
+}
+
+.description p{
+    margin: 0;
+}
