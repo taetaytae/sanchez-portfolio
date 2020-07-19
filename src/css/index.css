@@ -9,6 +9,35 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+::selection {
+  background: #F2545B;
+  color: #F3F7F0;
+}
+
+ /* width */
+ ::-webkit-scrollbar {
+  width: 30px;
+  height: 30px;
+ background: #19323C;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #19323C;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #A93F55;
+  border-radius: 100px;
+  background-clip: padding-box;
+  border: solid 10px transparent;
+}
+
+::-webkit-scrollbar-corner{
+  background: #19323C;
+}
+
 @font-face {
   font-family: Giveny;
   src: url('../fonts/giveny/Giveny.otf');

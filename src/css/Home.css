@@ -16,7 +16,7 @@
 
 }
 
-.homeContainer p::first-letter{
+.homeContainer span{
     font-size: 4.6rem;
     font-family: Deliverance;
     color: #A93F55;
@@ -42,3 +42,4 @@
         height: 40%;
     }
 }
+
