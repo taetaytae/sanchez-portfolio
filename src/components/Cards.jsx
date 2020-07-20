@@ -96,6 +96,7 @@ export function Card4Iframe() {
       height="100%"
       frameBorder="0"
       allow="autoplay; fullscreen"
+      title='Miraweb'
       allowFullScreen
     ></iframe>
   );
@@ -146,6 +147,7 @@ export function Card6Iframe() {
       height="100%"
       frameBorder="0"
       allow="autoplay; fullscreen"
+      title='spectrogram'
       allowFullScreen
     ></iframe>
   );
