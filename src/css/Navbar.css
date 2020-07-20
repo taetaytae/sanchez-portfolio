@@ -30,7 +30,7 @@ nav{
     text-decoration: currentColor underline;
     color: #19323C;
     cursor: pointer;
-    transition: 0.2s;
+    transition: 0.2s ease-in-out;
 }
 
 .links:hover, .logo:hover {

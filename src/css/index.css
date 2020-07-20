@@ -52,3 +52,8 @@ body {
   font-family: Quacker;
   src: url('../fonts/quacker/Quacker_Demo.ttf');
 }
+
+@font-face {
+  font-family: Stuart;
+  src: url('../fonts/stuart/OTF/stuart.otf');
+}
