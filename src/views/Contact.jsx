@@ -35,6 +35,9 @@ export default class Contact extends React.Component {
             <img src={apple} alt='apple' />
           </a>
         </div>
+
+
+        <h3>MSanchez__</h3>
       </div>
     );
   }

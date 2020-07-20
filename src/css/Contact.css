@@ -45,7 +45,7 @@
 .socialLinks img{
 
     width:200%;
-    height:200%;
+    height:100%;
 
     animation: hoverEffect 3s infinite ease-in-out;
 
@@ -74,6 +74,12 @@
 
     animation-delay: 2s;
 
+}
+
+.contactContainer h3{
+    margin: 40px 0px;
+    font-family: Stuart;
+    font-size: 3vh;
 }
 
 @media screen and (max-width:1300px){
