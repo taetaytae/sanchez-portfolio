@@ -91,13 +91,12 @@ export function Card3Info() {
 export function Card4Iframe() {
   return (
     <iframe
+      src="https://player.vimeo.com/video/334388945"
       width="100%"
       height="100%"
-      scrolling="no"
-      frameBorder="no"
-      allow="autoplay"
-      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/663510557&color=%23f2545b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true%22%3E"
-      title="n"
+      frameBorder="0"
+      allow="autoplay; fullscreen"
+      allowFullScreen
     ></iframe>
   );
 }
@@ -105,9 +104,9 @@ export function Card4Iframe() {
 export function Card4Info() {
   return (
     <>
-      <h2>Dream Catalogue</h2>
+      <h2>MiraWeb Phone Instrument</h2>
 
-      <p>Lorem ipsum dolor,</p>
+      <p>Phone instrument made using the MiraWeb Max/MSP package that utilizes the smartphone's sensors.</p>
     </>
   );
 }
@@ -142,13 +141,12 @@ export function Card5Info() {
 export function Card6Iframe() {
   return (
     <iframe
-      src="https://player.vimeo.com/video/438253135"
+      src="https://player.vimeo.com/video/333104301"
       width="100%"
       height="100%"
       frameBorder="0"
       allow="autoplay; fullscreen"
       allowFullScreen
-      title='vimeo'
     ></iframe>
   );
 }
@@ -156,13 +154,9 @@ export function Card6Iframe() {
 export function Card6Info() {
   return (
     <>
-      <h2>Dreaming</h2>
+      <h2>Spectrogram</h2>
 
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. In magni quo
-        quasi beatae necessitatibus? Velit sit quisquam et similique laudantium
-        obcaecati optio, cumque assumenda undeasdasdasdasdsa
-      </p>
+      <p>Simple spectrogram made using openFrameworks and Maximillian.</p>
     </>
   );
 }

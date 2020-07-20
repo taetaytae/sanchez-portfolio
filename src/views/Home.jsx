@@ -12,15 +12,16 @@ export default class Home extends React.Component {
           frameborder="no"
           allow="autoplay"
           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/537965922&color=%23f2545b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-          title='Akiko'
+          title="Akiko"
         ></iframe>
-       
+
         <p>
-          <span>L</span>orem ipsum, dolor sit amet consectetur adipisicing elit. Inventore
-          recusandae magni, ea earum minus in quas et, rem debitis voluptatem
-          nostrum blanditiis ipsum architecto, aliquid praesentium. Fuga nostrum
-          praesentium voluptates facilis molestias velit ex, voluptas
-          exercitationem porro neque nulla officiis minus, ducimus possimus esse
+          <span>R</span>ecently graduated undergraduate student with a BSc/BMus
+          degree in Music Computing (Electronic Music, Computing and Technology)
+          from Goldsmiths, University of London. The bachelor is a computing
+          degree with a specialized focus on audio programming and managing
+          digital audio systems. I was able to graduate with First Class Honours
+          and am now looking to expand my work experience as a programmer.
         </p>
       </div>
     );
