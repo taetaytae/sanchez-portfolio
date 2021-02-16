@@ -26,7 +26,7 @@ export default class Works extends React.Component {
         render(){
             return (
                 <div className="worksContainer" >
-                    <p>This is my stuff.</p>
+                    {/* <p>This is my stuff.</p> */}
 
                     <Link className='workLinks' to='/elasticdummy001' component={WorkCard} iframe={<WorkCard8Iframe/>} info={<WorkCard8Info/>}/>
                     <Link className='workLinks' to='/finalproject' component={WorkCard} iframe={<WorkCard6Iframe/>} info={<WorkCard6Info/>}/>

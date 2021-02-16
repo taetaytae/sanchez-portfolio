@@ -100,7 +100,7 @@ export function Card4Iframe() {
 export function Card4Info() {
   return (
     <>
-      <h2>Synthesizing Christmas</h2>
+      <h2>Synth Winter</h2>
 
       <p>
         A short mix of sounds made from scratch using the Digitone FM

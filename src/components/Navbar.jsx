@@ -25,9 +25,9 @@ export default class Navbar extends React.Component{
                     <h1>Mario Sánchez</h1>
                 </Link>
 
-                    <Link className='links' to='/about'>About</Link>
-                    <Link className='links' to='/works'>Works</Link>
+                    <Link className='links' to='/works'>Software</Link>
                     <Link className='links' to='/media'>Media</Link>
+                    <Link className='links' to='/about'>About</Link>
                     <Link className='links' to='/contact'>Contact</Link>
             
             </nav>

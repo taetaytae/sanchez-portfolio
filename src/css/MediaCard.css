@@ -94,6 +94,18 @@ iframe {
   opacity: 1;
 }
 
+.flip-card-back p {
+  font-size: 1rem;
+}
+
+@media screen and (max-width:1300px){
+
+  .mediacardContainer{
+    min-height: 200px;
+  }
+
+}
+
 @keyframes hoverEffect {
   0% {
     transform: translateY(0px);
