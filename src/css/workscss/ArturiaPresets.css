@@ -1,0 +1,43 @@
+.presetsContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.presetsContainer h1{
+    font-size: 6vh;
+    font-family: Stuart;
+    color: #A93F55;
+    padding: 10px;
+
+}
+
+.presetsContainer h2{
+    text-align: center;
+}
+
+.presetsContainer img {
+
+    width: 50%;
+}
+
+.presetsContainer p{
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    /*text-indent: 50px;*/
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media screen and (max-width:1300px){
+
+    .presetsContainer img {
+
+        width: 100%;
+    }
+
+
+}

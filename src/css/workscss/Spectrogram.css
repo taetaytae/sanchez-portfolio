@@ -1,0 +1,63 @@
+.spectrogramContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.spectrogramContainer h1{
+    font-size: 6vh;
+    font-family: Stuart;
+    color: #A93F55;
+    padding: 10px;
+
+}
+
+.spectrogramContainer h2{
+    text-align: center;
+}
+
+.spectrogramContainer img {
+
+    width: 50%;
+}
+
+.spectrogramContainer p{
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    /*text-indent: 50px;*/
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.spectrogramContainer a {
+    color: #A93F55;
+}
+
+.specvideo {
+    overflow: hidden;
+    position: relative;
+}
+
+.spectrogramContainer iframe {
+  border-radius: 10px;
+  background-color: #e8ebe5;
+}
+
+@media screen and (max-width:1300px){
+
+    .spectrogramContainer img {
+
+        width: 100%;
+    }
+
+    .spectrogramContainer iframe {
+
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+}

@@ -4,7 +4,8 @@
     flex: 2;
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-start;
+    align-items: center;
+    flex-direction: column;
 }
 
 .homeContainer p{
@@ -30,6 +31,14 @@
     border-radius: 5px;
 }
 
+.socialLinks {
+    padding-bottom: 5px;
+}
+
+.socialLinks a {
+    width: 50%;
+}
+
 @media screen and (max-width:1300px){
     .homeContainer{
         flex-direction: column;
@@ -44,6 +53,10 @@
     .homeContainer iframe{
         width: 80%;
         height: 40%;
+    }
+
+    .socialLinks {
+        padding-bottom: 20px;
     }
 }
 

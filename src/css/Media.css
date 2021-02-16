@@ -5,6 +5,10 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+.mediaContainer p {
+  font-size: 1.5rem;
+}
+
 
 
 @media screen and (max-width:1300px){

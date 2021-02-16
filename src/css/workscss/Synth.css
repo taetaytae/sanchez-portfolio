@@ -1,0 +1,48 @@
+.synthContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.synthContainer h1{
+    font-size: 6vh;
+    font-family: Stuart;
+    color: #A93F55;
+    padding: 10px;
+
+}
+
+.synthContainer h2{
+    text-align: center;
+}
+
+.synthContainer img {
+
+    width: 80%;
+    height: 70%;
+}
+
+.synthContainer p{
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    /*text-indent: 50px;*/
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.synthContainer iframe {
+    border-radius: 10px;
+    background-color: #e8ebe5;
+}
+
+@media screen and (max-width:1300px){
+    .synthContainer iframe {
+
+        width: 100%;
+        height: 100%;
+
+    }
+}

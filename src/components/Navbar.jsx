@@ -22,13 +22,14 @@ export default class Navbar extends React.Component{
         return(
             <nav>
                 <Link className='logo' to='/'>
-                    <h1>Mario Sanchez</h1>
+                    <h1>Mario Sánchez</h1>
                 </Link>
 
-                <Link className='links' to='/media'>Media</Link>
-                <Link className='links' to='/contact'>Contact</Link>
-
-                
+                    <Link className='links' to='/about'>About</Link>
+                    <Link className='links' to='/works'>Works</Link>
+                    <Link className='links' to='/media'>Media</Link>
+                    <Link className='links' to='/contact'>Contact</Link>
+            
             </nav>
         );
 

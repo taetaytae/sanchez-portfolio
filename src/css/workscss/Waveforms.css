@@ -1,0 +1,60 @@
+.waveformsContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.waveformsContainer h1{
+    font-size: 6vh;
+    font-family: Stuart;
+    color: #A93F55;
+    padding: 10px;
+
+}
+
+.waveformsContainer h2{
+    text-align: center;
+}
+
+.waveformsContainer img {
+
+    width: 50%;
+}
+
+.waveformsContainer a {
+    color: #A93F55;
+}
+
+.waveformsContainer p{
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    /*text-indent: 50px;*/
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.waveformsContainer iframe {
+    border-radius: 10px;
+    background-color: #e8ebe5;
+}
+
+
+@media screen and (max-width:1300px){
+
+    .waveformsContainer img {
+
+        width: 100%;
+    }
+
+    .waveformsContainer iframe {
+
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+}

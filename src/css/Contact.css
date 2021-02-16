@@ -1,4 +1,6 @@
 .contactContainer{
+    
+    
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -12,6 +14,11 @@
     color: #A93F55;
     padding: 10px;
 
+}
+
+.contactContainer h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .email{
@@ -29,27 +36,27 @@
 
 .email span {
 
-    font-size: 5vh;
+    font-size: 4vh;
     font-family: Stuart;
-    color: #A93F55;
+    /* color: #A93F55; */
     text-decoration: none;
 
 }
 
 .socialLinks{
     display: flex;
-    width: 60%;
-    justify-content: space-evenly;
+    width: 20%;
+    /* justify-content: space-evenly; */
+    justify-content: center;
 }
 
 .socialLinks img{
+    display: block;
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
 
-    width:200%;
-    height:100%;
-
-    animation: hoverEffect 3s infinite ease-in-out;
-
-
+    /* animation: hoverEffect 3s infinite ease-in-out; */
 }
 
 .twitterLogo{
@@ -86,7 +93,7 @@
 
 
     .socialLinks{
-        width:100%;
+        width:60%;
     }
 
     .email:hover{

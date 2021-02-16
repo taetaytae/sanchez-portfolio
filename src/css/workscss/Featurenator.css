@@ -1,0 +1,47 @@
+.featurenatorContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.featurenatorContainer h1{
+    font-size: 6vh;
+    font-family: Stuart;
+    color: #A93F55;
+    padding: 10px;
+
+}
+
+.featurenatorContainer h2{
+    text-align: center;
+}
+
+.featurenatorContainer img {
+
+    width: 50%;
+}
+
+.featurenatorContainer li {
+    text-align: start;
+}
+
+.featurenatorContainer p{
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    /*text-indent: 50px;*/
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media screen and (max-width:1300px){
+
+    .featurenatorContainer img {
+
+        width: 100%;
+    }
+
+
+}

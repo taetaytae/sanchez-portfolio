@@ -1,8 +1,8 @@
 import React from "react";
-import "../css/Card.css";
+import "../css/MediaCard.css";
 import flip from "../assets/flip.svg";
 
-export default class Card extends React.Component {
+export default class MediaCard extends React.Component {
   constructor(props) {
     super(props);
 
@@ -29,7 +29,7 @@ export default class Card extends React.Component {
 
   render() {
     return (
-      <div className="cardContainer">
+      <div className="mediacardContainer">
         <div className="flip-card" style={{animationDelay: this.state.float +'s'}}>
           <div className="flip-icon">
             <img
