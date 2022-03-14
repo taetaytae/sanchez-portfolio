@@ -301,3 +301,27 @@ export function WorkCard8Info() {
     </>
   );
 }
+
+export function WorkCard9Iframe() {
+  return(
+    <iframe
+      width="100%"
+      height="100%"
+      scrolling="no"
+      frameBorder="no"
+      allow="autoplay"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/537965922&color=%23f2545b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+      title="Akiko"
+    ></iframe>
+  );
+}
+
+export function WorkCard9Info() {
+  return(
+    <>
+      <h2>ED-003 (Elastic Dummy) Work in Progress</h2>
+
+      <p>2022 - An interactive audiovisual webpage showcasing spatial HRTF panning. Made with React using React Three Fiber, Tone.js, and zustand for state-management.</p>
+    </>
+  );
+}

@@ -19,7 +19,9 @@ import {
     // WorkCard7Iframe,
     // WorkCard7Info,
     WorkCard8Iframe,
-    WorkCard8Info
+    WorkCard8Info,
+    WorkCard9Iframe,
+    WorkCard9Info
 } from "../components/Cards"
 
 export default class Works extends React.Component {
@@ -28,8 +30,9 @@ export default class Works extends React.Component {
                 <div className="worksContainer" >
                     {/* <p>This is my stuff.</p> */}
 
-                    <Link className='workLinks' to='/elasticdummy001' component={WorkCard} iframe={<WorkCard8Iframe/>} info={<WorkCard8Info/>}/>
                     <Link className='workLinks' to='/finalproject' component={WorkCard} iframe={<WorkCard6Iframe/>} info={<WorkCard6Info/>}/>
+                    <Link className='workLinks' to='/elasticdummy003' component={WorkCard} iframe={<WorkCard9Iframe/>} info={<WorkCard9Info/>}/>
+                    <Link className='workLinks' to='/elasticdummy001' component={WorkCard} iframe={<WorkCard8Iframe/>} info={<WorkCard8Info/>}/>
                     {/* <Link className='workLinks' to='/arturiapresets' component={WorkCard} iframe={<WorkCard7Iframe/>} info={<WorkCard7Info/>}/> */}
                     <Link className='workLinks' to='/featurenator' component={WorkCard} iframe={<WorkCard5Iframe/>} info={<WorkCard5Info/>}/>
                     <Link className='workLinks' to='/phoneinst' component={WorkCard} iframe={<WorkCard4Iframe/>} info={<WorkCard4Info/>}/>

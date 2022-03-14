@@ -16,6 +16,7 @@ import Featurenator from "./views/Featurenator";
 import ArturiaPresets from "./views/ArturiaPresets";
 import FinalProject from "./views/FinalProject";
 import Elastic001 from "./views/ED001";
+import Elastic003 from "./views/ED003";
 import Scrolltotop from "./components/Scrolltotop";
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
           <Route path='/arturiapresets' component={ArturiaPresets}/>
           <Route path='/finalproject' component={FinalProject}/>
           <Route path='/elasticdummy001' component={Elastic001}/>
+          <Route path='/elasticdummy003' component={Elastic003}/>
         </Switch>
         <Scrolltotop/>
         <Footer/>
