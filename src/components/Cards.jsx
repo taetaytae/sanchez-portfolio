@@ -319,9 +319,9 @@ export function WorkCard9Iframe() {
 export function WorkCard9Info() {
   return(
     <>
-      <h2>ED-003 (Elastic Dummy) Work in Progress</h2>
+      <h2>ED-003 (Elastic Dummy)</h2>
 
-      <p>2022 - An interactive audiovisual webpage showcasing spatial HRTF panning. Made with React using React Three Fiber, Tone.js, and zustand for state-management.</p>
+      <p>2022 - A web-based granular synthesizer with a React Three Fiber based user interface.</p>
     </>
   );
 }
